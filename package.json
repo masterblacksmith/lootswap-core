@@ -40,7 +40,9 @@
     "clean": "rimraf ./build/",
     "precompile": "yarn clean",
     "compile": "waffle .waffle.json",
-    "pretest": "yarn compile"
+    "pretest": "yarn compile",
+    "test": "mocha",
+    "prepublishOnly": "yarn test"
   },
   "dependencies": {
     "@trufflesuite/web3-provider-engine": "^15.0.13-1",
