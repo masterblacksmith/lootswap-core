@@ -1,7 +1,7 @@
 {
   "name": "@lootswap/core",
   "description": "🎛 Core contracts for the LootSwap exchanges",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/LootSwap/lootswap-core"
