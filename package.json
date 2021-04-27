@@ -45,5 +45,11 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@harmony-js/core": "^0.1.57",
+    "@harmony-js/utils": "^0.1.56",
+    "dotenv": "^8.2.0",
+    "tslib": "^2.2.0"
+  }
 }
